@@ -113,7 +113,7 @@ def classifyPerson():
     ffMiles = float(input("每年获得的飞行常客里程数:"))
     iceCream = float(input("每周消费的冰激淋公升数:"))
     #打开的文件名
-    filename = "datingTestSet.txt"
+    filename = "data/datingTestSet.txt"
     #打开并处理数据
     datingDataMat, datingLabels = file2matrix(filename)
     #训练集归一化
